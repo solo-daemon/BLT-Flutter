@@ -1,0 +1,40 @@
+name: blt
+description: The BLT-Flutter App
+
+version: 1.0.1+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_markdown: ^0.6.10
+  google_fonts: ^3.0.1
+  http: ^0.13.1
+  image_picker: ^0.8.4+4
+  receive_sharing_intent: ^1.4.5
+  shared_preferences: ^2.0.5
+  flutter_svg: ^1.0.3
+  flutter_riverpod: ^1.0.3
+  intl: ^0.17.0
+  flutter_secure_storage: ^5.0.2
+  smooth_page_indicator: ^1.0.0+2
+  #flutter_lints: ^1.0.4
+
+dev_dependencies:
+  flutter_launcher_icons: ">=0.9.0 <0.11.0"
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/login_signup/
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/app_large_icon.png"
+  remove_alpha_ios: true
