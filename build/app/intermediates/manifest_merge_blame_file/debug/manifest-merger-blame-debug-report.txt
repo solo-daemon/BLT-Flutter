@@ -1,0 +1,246 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.apps.bltflutter"
+4    android:versionCode="1"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:3:4-78
+15-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:3:21-76
+16
+17    <application
+17-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:4:4-97:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.8.0] C:\Users\yashs\.gradle\caches\transforms-2\files-2.1\8e86e615f21ac3758e97e94e18045107\core-1.8.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:6:9-43
+21        android:label="BLT" >
+21-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:5:9-28
+22        <activity
+22-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:7:9-91:20
+23            android:name="com.apps.bltflutter.MainActivity"
+23-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:8:13-41
+24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+24-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:11:13-163
+25            android:hardwareAccelerated="true"
+25-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:12:13-47
+26            android:launchMode="singleTop"
+26-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:9:13-43
+27            android:theme="@style/LaunchTheme"
+27-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:10:13-47
+28            android:windowSoftInputMode="adjustResize" >
+28-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:13:13-55
+29
+30            <!--
+31                 Specifies an Android theme to apply to this Activity as soon as
+32                 the Android process has started. This theme is visible to the user
+33                 while the Flutter UI initializes. After that, this theme continues
+34                 to determine the Window background behind the Flutter UI.
+35            -->
+36            <meta-data
+36-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:18:13-21:17
+37                android:name="io.flutter.embedding.android.NormalTheme"
+37-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:19:15-70
+38                android:resource="@style/NormalTheme" />
+38-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:20:15-52
+39            <!--
+40                 Displays an Android View that continues showing the launch screen
+41                 Drawable until Flutter paints its first frame, then this splash
+42                 screen fades out. A splash screen is useful to avoid any visual
+43                 gap between the end of Android's launch screen and the painting of
+44                 Flutter's first frame.
+45            -->
+46            <meta-data
+46-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:27:13-30:17
+47                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+47-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:28:15-79
+48                android:resource="@drawable/launch_background" />
+48-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:29:15-61
+49
+50            <intent-filter>
+50-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:31:13-34:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:32:17-68
+51-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:32:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:33:17-76
+53-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:33:27-74
+54            </intent-filter>
+55            <intent-filter>
+55-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:36:13-45:29
+56                <action android:name="android.intent.action.VIEW" />
+56-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:37:16-68
+56-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:37:24-65
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+58-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:16-75
+58-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:26-72
+59                <category android:name="android.intent.category.BROWSABLE" />
+59-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:39:16-77
+59-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:39:26-74
+60                <!-- TODO:  Add this filter, if you want support opening urls into your app -->
+61                <data
+61-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:41:16-44:50
+62                    android:host="example.com"
+62-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:43:20-46
+63                    android:pathPrefix="/invite"
+63-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:44:20-48
+64                    android:scheme="https" />
+64-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:42:20-42
+65            </intent-filter>
+66
+67            <!-- TODO: Add this filter, if you want to support sharing text into your app -->
+68            <intent-filter>
+68-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:48:13-52:29
+69                <action android:name="android.intent.action.SEND" />
+69-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:49:16-68
+69-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:49:24-65
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:16-75
+71-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:26-72
+72
+73                <data android:mimeType="text/*" />
+73-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:41:16-44:50
+74            </intent-filter>
+75
+76            <!-- TODO: Add this filter, if you want to support sharing images into your app -->
+77            <intent-filter>
+77-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:55:13-59:29
+78                <action android:name="android.intent.action.SEND" />
+78-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:49:16-68
+78-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:49:24-65
+79
+80                <category android:name="android.intent.category.DEFAULT" />
+80-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:16-75
+80-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:26-72
+81
+82                <data android:mimeType="image/*" />
+82-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:41:16-44:50
+83            </intent-filter>
+84            <intent-filter>
+84-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:61:13-65:29
+85                <action android:name="android.intent.action.SEND_MULTIPLE" />
+85-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:62:17-78
+85-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:62:25-75
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:16-75
+87-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:26-72
+88
+89                <data android:mimeType="image/*" />
+89-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:41:16-44:50
+90            </intent-filter>
+91
+92            <!-- TODO: Add this filter, if you want to support sharing videos into your app -->
+93            <intent-filter>
+93-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:68:13-72:29
+94                <action android:name="android.intent.action.SEND" />
+94-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:49:16-68
+94-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:49:24-65
+95
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:16-75
+96-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:26-72
+97
+98                <data android:mimeType="video/*" />
+98-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:41:16-44:50
+99            </intent-filter>
+100            <intent-filter>
+100-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:73:13-77:29
+101                <action android:name="android.intent.action.SEND_MULTIPLE" />
+101-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:62:17-78
+101-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:62:25-75
+102
+103                <category android:name="android.intent.category.DEFAULT" />
+103-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:16-75
+103-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:26-72
+104
+105                <data android:mimeType="video/*" />
+105-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:41:16-44:50
+106            </intent-filter>
+107
+108            <!-- TODO: Add this filter, if you want to support sharing any type of files -->
+109            <intent-filter>
+109-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:80:13-84:29
+110                <action android:name="android.intent.action.SEND" />
+110-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:49:16-68
+110-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:49:24-65
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:16-75
+112-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:26-72
+113
+114                <data android:mimeType="*/*" />
+114-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:41:16-44:50
+115            </intent-filter>
+116            <intent-filter>
+116-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:85:13-89:29
+117                <action android:name="android.intent.action.SEND_MULTIPLE" />
+117-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:62:17-78
+117-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:62:25-75
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:16-75
+119-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:38:26-72
+120
+121                <data android:mimeType="*/*" />
+121-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:41:16-44:50
+122            </intent-filter>
+123        </activity>
+124        <!--
+125             Don't delete the meta-data below.
+126             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+127        -->
+128        <meta-data
+128-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:94:9-96:33
+129            android:name="flutterEmbedding"
+129-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:95:13-44
+130            android:value="2" />
+130-->C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\android\app\src\main\AndroidManifest.xml:96:13-30
+131
+132        <provider
+132-->[:image_picker_android] C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+133            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+133-->[:image_picker_android] C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+134            android:authorities="com.apps.bltflutter.flutter.image_provider"
+134-->[:image_picker_android] C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+135            android:exported="false"
+135-->[:image_picker_android] C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+136            android:grantUriPermissions="true" >
+136-->[:image_picker_android] C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+137            <meta-data
+137-->[:image_picker_android] C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+138                android:name="android.support.FILE_PROVIDER_PATHS"
+138-->[:image_picker_android] C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+139                android:resource="@xml/flutter_image_picker_file_paths" />
+139-->[:image_picker_android] C:\Users\yashs\OneDrive\document (1)\opensource\BLT-Flutter\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+140        </provider>
+141
+142        <uses-library
+142-->[androidx.window:window:1.0.0-beta04] C:\Users\yashs\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+143            android:name="androidx.window.extensions"
+143-->[androidx.window:window:1.0.0-beta04] C:\Users\yashs\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+144            android:required="false" />
+144-->[androidx.window:window:1.0.0-beta04] C:\Users\yashs\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+145        <uses-library
+145-->[androidx.window:window:1.0.0-beta04] C:\Users\yashs\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+146            android:name="androidx.window.sidecar"
+146-->[androidx.window:window:1.0.0-beta04] C:\Users\yashs\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+147            android:required="false" />
+147-->[androidx.window:window:1.0.0-beta04] C:\Users\yashs\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+148    </application>
+149
+150</manifest>
