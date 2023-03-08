@@ -6,8 +6,7 @@ import 'package:flutter/services.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   // Check the device's screen size
-  var screenSize =
-      MediaQueryData.fromWindow(WidgetsBinding.instance.window).size;
+  var screenSize = MediaQueryData.fromWindow(WidgetsBinding.instance.window).size;
   if (screenSize.shortestSide < 600) {
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
