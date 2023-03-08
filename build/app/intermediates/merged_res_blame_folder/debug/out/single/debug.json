@@ -8,6 +8,10 @@
         "source": "C:\\Users\\yashs\\OneDrive\\document (1)\\opensource\\BLT-Flutter\\android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml"
     },
     {
+        "merged": "C:\\Users\\yashs\\OneDrive\\document (1)\\opensource\\BLT-Flutter\\build\\app\\intermediates\\res\\merged\\debug\\drawable_blt_logo.xml.flat",
+        "source": "C:\\Users\\yashs\\OneDrive\\document (1)\\opensource\\BLT-Flutter\\android\\app\\src\\main\\res\\drawable\\blt_logo.xml"
+    },
+    {
         "merged": "C:\\Users\\yashs\\OneDrive\\document (1)\\opensource\\BLT-Flutter\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\yashs\\OneDrive\\document (1)\\opensource\\BLT-Flutter\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -26,9 +30,5 @@
     {
         "merged": "C:\\Users\\yashs\\OneDrive\\document (1)\\opensource\\BLT-Flutter\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\yashs\\OneDrive\\document (1)\\opensource\\BLT-Flutter\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\yashs\\OneDrive\\document (1)\\opensource\\BLT-Flutter\\build\\app\\intermediates\\res\\merged\\debug\\drawable_bugheist_logo.xml.flat",
-        "source": "C:\\Users\\yashs\\OneDrive\\document (1)\\opensource\\BLT-Flutter\\android\\app\\src\\main\\res\\drawable\\bugheist_logo.xml"
     }
 ]
